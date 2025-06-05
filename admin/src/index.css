@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+@theme{
+    --color-primary: #5f6fff ;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+
+}
+*{
+    font-family: Outfit;
+}
+
+.no-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+input[type=checkbox]{
+    accent-color: green;
+}
